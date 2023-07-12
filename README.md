@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./img/logo.png" alt="Logo" width="200">
+  <img src="./img/logo_grid.png" alt="Logo" width="200">
 </div>
 
 # SWIFT-AI: An Extremely Fast System For Gigapixel Visual Understanding In Science
