@@ -10,13 +10,12 @@
 <img src="https://img.shields.io/github/stars/liwenxi/SWIFT-AI?color=yellow" alt="Stars">
 <img src="https://img.shields.io/github/issues/liwenxi/SWIFT-AI?color=red" alt="Issues">
 <img src="https://img.shields.io/badge/python-3.8-purple.svg" alt="Python">
-
 <!-- **Authors:** -->
-**_¹  [Wenxi Li](https://liwenxi.github.io/)_**
+<!-- **_¹  [Wenxi Li](https://liwenxi.github.io/)_** -->
 
 <!-- **Affiliations:** -->
 
-_¹ Shanghai Jiao Tong University_
+<!-- _¹ Shanghai Jiao Tong University_ -->
 
 </div>
 
@@ -33,11 +32,18 @@ Welcome to the dawn of a new era in scientific research with SWIFT AI, our groun
 - [Introduction](#introduction)
 - [Key Features](#key-features)
 - [Architecture](#architecture)
-- [Alignment Strategy](#alignment-strategy)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Future Work and Contributions](#future-work-and-contributions)
 
 
 
-## Coming Soon!
+## Key Features 🔑
+
+SWIFT-AI will become the third eye of researchers, helping to observe objects in a large field of view, and assisting the discovery of strong gravitational lenses by the <a href="https://www.lsst.org/science/transient-optical-sky">LSST project</a>.
+
+```html
+<video id="video" controls="" preload="none" poster="封面">
+      <source id="mp4" src="./img/Galaxy.mp4" type="video/mp4">
+</videos>
+```
