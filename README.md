@@ -42,7 +42,5 @@ Welcome to the dawn of a new era in scientific research with SWIFT AI, our groun
 
 SWIFT-AI will become the third eye of researchers, helping to observe objects in a large field of view, and assisting the discovery of strong gravitational lenses by the <a href="https://www.lsst.org/science/transient-optical-sky">LSST project</a>.
 
-<video id="video" controls="" preload="none" poster="封面">
-      <source id="mp4" src="./img/Galaxy.mp4" type="video/mp4">
-</videos>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HfIJ6Xe-F_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
