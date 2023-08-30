@@ -1,0 +1,18 @@
+DATA:
+  DATASET: camelyon16
+  IMG_SIZE: 448
+  NUM_WORKERS: 22
+MODEL:
+  TYPE: swin
+  NUM_CLASSES : 2
+  NAME: giga_patch16_stride4_window7_448
+  DROP_PATH_RATE: 0.5
+  SWIN:
+    PATCH_SIZE: 16
+    EMBED_DIM: 96
+    DEPTHS: [ 9 ]
+    NUM_HEADS: [ 6 ]
+    WINDOW_SIZE: 7
+TEST:
+  CROP : False
+  RETAIN: True

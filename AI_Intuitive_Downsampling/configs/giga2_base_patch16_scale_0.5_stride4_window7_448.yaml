@@ -1,0 +1,29 @@
+#TAG : CenterCropTest
+PRINT_FREQ : 100
+DATA:
+  DATASET: camelyon16
+  IMG_SIZE: 448
+  NUM_WORKERS: 16
+MODEL:
+  TYPE: swin_v2
+  NUM_CLASSES : 2
+  NAME: giga2_base_patch16_scale_0.5_stride4_window7_448
+  DROP_PATH_RATE: 0.5
+  SWIN:
+    PATCH_SIZE: 16
+    EMBED_DIM: 768
+    DEPTHS: [ 12 ]
+    NUM_HEADS: [ 12 ]
+    WINDOW_SIZE: 7
+AUG:
+  SCALE : (0.5, 1.0)
+TRAIN:
+  EPOCHS: 300
+  WARMUP_EPOCHS: 20
+  WEIGHT_DECAY: 1e-8
+  BASE_LR: 2e-06
+  WARMUP_LR: 2e-09
+  MIN_LR: 2e-08
+#TEST:
+#  CROP : False
+#  RETAIN: True

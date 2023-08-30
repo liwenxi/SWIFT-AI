@@ -1,0 +1,20 @@
+#TAG : CenterCropTest
+PRINT_FREQ : 100
+DATA:
+  DATASET: camelyon16
+  IMG_SIZE: 448
+  NUM_WORKERS: 12
+MODEL:
+  TYPE: swin_v2
+  NUM_CLASSES : 2
+  NAME: giga2_patch16_stride4_window7_448_panda_x0.5
+  DROP_PATH_RATE: 0.5
+  SWIN:
+    PATCH_SIZE: 16
+    EMBED_DIM: 96
+    DEPTHS: [ 9 ]
+    NUM_HEADS: [ 6 ]
+    WINDOW_SIZE: 7
+#TEST:
+#  CROP : False
+#  RETAIN: True

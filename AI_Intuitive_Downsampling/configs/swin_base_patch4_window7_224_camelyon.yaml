@@ -1,0 +1,28 @@
+PRINT_FREQ : 100
+DATA:
+  DATASET: camelyon16
+  IMG_SIZE: 224
+  NUM_WORKERS: 16
+MODEL:
+  TYPE: swin
+  NUM_CLASSES : 2
+  NAME: swin_base_patch4_window7_224_camelyon
+  DROP_PATH_RATE: 0.5
+  SWIN:
+    EMBED_DIM: 128
+    DEPTHS: [ 2, 2, 18, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 7
+
+#AUG:
+#  SCALE : (0.5, 1.0)
+#TRAIN:
+#  EPOCHS: 300
+#  WARMUP_EPOCHS: 20
+#  WEIGHT_DECAY: 1e-8
+#  BASE_LR: 2e-06
+#  WARMUP_LR: 2e-09
+#  MIN_LR: 2e-08
+#TEST:
+#  CROP : False
+#  RETAIN: True
