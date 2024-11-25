@@ -44,4 +44,18 @@ SWIFT-AI will become the third eye of researchers, helping to observe objects in
 
 ![Zoom into NGC 1333](img/Galaxy.gif)
 
+## Gigapixel-level Datasets 
+
+### PANDA
+- [PANDA] A Gigapixel-level Human-centric Video Dataset [[Link](https://gigavision.cn/data/news/?nav=DataSet%20Panda&type=nav%2Findex.html)]
+PANDA is the first gigaPixel-level humAN-centric viDeo dAtaset, for large-scale, long-term, and multi-object visual analysis. The videos in PANDA were captured by a gigapixel camera and cover real-world large-scale scenes with both wide field-of-view  (~1km² area) and high resolution details (~gigapixel-level/frame). The scenes may contain 4k head counts with over 100× scale variation. PANDA provides enriched and hierarchical ground-truth annotations, including 15,974.6k bounding boxes, 111.8k fine-grained attribute labels, 12.7k trajectories, 2.2k groups and 2.9k interactions.
+
+### Camelyon
+- [Camelyon] 1399 H&E-stained sentinel lymph node sections of breast cancer patients: the CAMELYON dataset [[Link](https://gigadb.org/dataset/100439)]
+The goal of this challenge is to evaluate new and existing algorithms for automated detection of metastases in hematoxylin and eosin (H&E) stained whole-slide images of lymph node sections. This task has a high clinical relevance but requires large amounts of reading time from pathologists. Therefore, a successful solution would hold great promise to reduce the workload of the pathologists while at the same time reduce the subjectivity in diagnosis. This will be the first challenge using whole-slide images in histopathology. The challenge will run for two years. The 2016 challenge will focus on sentinel lymph nodes of breast cancer patients and will provide a large dataset from both the Radboud University Medical Center (Nijmegen, the Netherlands), as well as the University Medical Center Utrecht (Utrecht, the Netherlands).
+
+### Galaxy
+- [Galaxy] Real galaxy dataset extracted from the HST COSMOS survey for use with GalSim. [[Link](https://zenodo.org/records/3242143)]
+
+
 ### * We have open-sourced the complete code for InhibitionFormer, a framework built on [MMDetection](https://github.com/open-mmlab/mmdetection). Additionally, you can create and integrate your own dataset by following the provided tutorials.
