@@ -44,10 +44,4 @@ SWIFT-AI will become the third eye of researchers, helping to observe objects in
 
 ![Zoom into NGC 1333](img/Galaxy.gif)
 
-### * We are rewriting the previous code of the organization. Please be patient.
-
-### ** We have built a new sparse Transformer architecture, and the code will be updated in two days.
-
-
-
-
+### * We have open-sourced the complete code for InhibitionFormer, a framework built on [MMDetection](https://github.com/open-mmlab/mmdetection). Additionally, you can create and integrate your own dataset by following the provided tutorials.
