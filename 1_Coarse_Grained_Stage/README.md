@@ -27,6 +27,10 @@ This repo is the official implementation of ["Swin Transformer: Hierarchical Vis
 
 ## Updates
 
+***03/12/2024***
+
+`News`: :fire:We used the Swin Transformer as the base code to implement a fast Patch classification. This code can train with small images of 448x448 or 768x768 pixels but outputs a probability distribution map of a gigapixel image. For specific training details, you can refer to the contents in the `config` file, while `probs_map_cam.py` provides the code for inference on gigapixel images.
+
 ***03/02/2022***
 
 `News`: Swin Transformer V2 and SimMIM got accepted by CVPR 2022. [SimMIM](https://github.com/microsoft/SimMIM) is a self-supervised pre-training approach based on masked image modeling, a key technique that works out the 3-billion-parameter Swin V2 model using `40x less labelled data` than that of previous billion-scale models based on JFT-3B. 
@@ -41,7 +45,7 @@ This repo is the official implementation of ["Swin Transformer: Hierarchical Vis
 
 ***08/09/2021***
 1. [Soft Teacher](https://arxiv.org/pdf/2106.09018v2.pdf) will appear at ICCV2021. The code will be released at [GitHub Repo](https://github.com/microsoft/SoftTeacher). `Soft Teacher` is an end-to-end semi-supervisd object detection method, achieving a new record on the COCO test-dev: `61.3 box AP` and `53.0 mask AP`.
- 
+
 ***07/03/2021***
 1. Add **Swin MLP**, which is an adaption of `Swin Transformer` by replacing all multi-head self-attention (MHSA) blocks by MLP layers (more precisely it is a group linear layer). The shifted window configuration can also significantly improve the performance of vanilla MLP architectures. 
 
